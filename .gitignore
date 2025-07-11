@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials
+credentials.json
+token.json
+.env
+
+# Data
+downloads/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Cache
+.cache/
+
+downloads/*
+credentials/*
+logs/*
+.claude/
