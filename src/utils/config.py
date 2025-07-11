@@ -2,11 +2,13 @@ import os
 from pathlib import Path
 from dotenv import load_dotenv
 
+BASE_DIR = Path(__file__).parent.parent.parent
+
 # Carrega variáveis de ambiente
-load_dotenv()
+load_dotenv(dotenv_path=BASE_DIR / ".env", override=True)
 
 # Diretórios
-BASE_DIR = Path(__file__).parent.parent.parent
+
 DOWNLOADS_DIR = BASE_DIR / "downloads"
 CREDENTIALS_DIR = BASE_DIR / "credentials"
 LOGS_DIR = BASE_DIR / "logs"
